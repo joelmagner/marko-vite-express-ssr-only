@@ -7,8 +7,8 @@ import fs from "fs";
 // import markoMiddleware from "@marko/express";
 import vite from "vite";
 
-import logger from "../marko-vite-express-ssr-only2/lib/logger.js";
-import setupApp from "../marko-vite-express-ssr-only2/lib/init/setupApp.js";
+import logger from "./lib/logger.js";
+import setupApp from "./lib/init/setupApp.js";
 
 const isProd = process.env.NODE_ENV === "production";
 const port = Number(process.env.PORT) || 3000;

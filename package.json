@@ -18,7 +18,7 @@
   },
   "private": true,
   "scripts": {
-    "build": "NODE_ENV=production vite build --ssr src/index.js",
+    "build": "NODE_ENV=production vite build --ssr app.js",
     "dev": "mkdir -p dist && node --enable-source-maps app.js",
     "dev:inspect": "node --inspect --enable-source-maps app.js",
     "start": "NODE_ENV=production node --enable-source-maps app.js"
